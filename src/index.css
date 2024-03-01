@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-primary {
+  @apply bg-[#4262FF] text-[#FFFFFF] font-normal rounded-md px-3 py-2
+}
