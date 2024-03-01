@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-.btn-primary {
-  @apply bg-[#4262FF] text-[#FFFFFF] font-normal rounded-md px-3 py-2
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
 }
+
+.btn-primary {
+  @apply bg-[#4262FF] text-[#FFFFFF] font-normal rounded-full px-4 py-2
+}
+
+/* navbar */
+.inter-text {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+
+/* banner text */
