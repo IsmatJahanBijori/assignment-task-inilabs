@@ -6,7 +6,7 @@ import HeroLeftUpper from './HeroLeftUpper'
 import HeroLeftLower from './HeroLeftLower'
 const HeroSection = () => {
     return (
-        <Container className="mt-14 bg-gray-400">
+        <Container className="mt-14 ">
             <div className='grid grid-cols-1 md:grid-cols-2 ml-[80px] gap-14 inter-text '>
                 <div className='w-[440px]'>
                     <HeroLeftUpper />
