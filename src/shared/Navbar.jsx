@@ -42,7 +42,7 @@ const Navbar = () => {
         // bg-[#F0F0F0]
 
         <>
-            <header className="h-[90px] px-5 text-base inter-text overflow-y-hidden">
+            <header className="h-[90px] px-5 bg-[#F0F0F0] text-base inter-text overflow-y-hidden">
                 <div className="mx-auto flex p-5 flex-row items-center">
                     <div className="flex items-center md:hidden">
                         <button onClick={toggleMenu}>

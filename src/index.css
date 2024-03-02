@@ -24,4 +24,11 @@
 
 
 
-/* banner text */
+
+/* container box */
+.container-box {
+  padding: 13px 18px 15px 18px;
+  font-size: 14px;
+  color: #050038;
+  line-height: 20px;
+}
