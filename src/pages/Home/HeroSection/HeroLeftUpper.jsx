@@ -1,9 +1,11 @@
 import React from 'react'
+import SectionHeader from '../../../components/SectionHeader'
 
 const HeroLeftUpper = () => {
     return (
         <>
-            <h1 className='text-5xl font-bold overflow-y-hidden text-[#050038]'>Take ideas from better to best</h1>
+            {/* <h1 className='text-5xl font-bold overflow-y-hidden text-[#050038]'>Take ideas from better to best</h1> */}
+            <SectionHeader title={"Take ideas from better to best"} />
             <p className='w-[428px] text-[#050038B8] text-lg line-[24px] mt-4'>Miro is your team's visual platform to connect, collaborate, and create — together.</p>
             <input type="text" placeholder='Enter your work email' className='rounded-full banner-input' />
             <button className="btn-primary flex place-items-center mt-[3px] w-[440px]">

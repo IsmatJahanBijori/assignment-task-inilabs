@@ -5,7 +5,7 @@ import Container from '../../../components/Container'
 const TrustedSection = () => {
     return (
         <section className='section bg-red-950'>
-            <Container className="bg-green-500">
+            <Container className="bg-green-500 w-[1120px]">
                 <div className='flex '>
                     <p className='mx-auto text-[#05003899] inter-text'>Trusted by 45M+ users</p>
                 </div>
