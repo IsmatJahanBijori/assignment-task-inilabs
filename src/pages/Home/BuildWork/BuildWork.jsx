@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from '../../../components/Container'
 import SectionHeader from '../../../components/SectionHeader'
-import { buildWork } from '../../../utils/BuildWork'
+import { buildWork } from '../../../utils/container'
 import ContainerBox from '../../../components/ContainerBox'
 import ContainerTextUI from '../../../components/ContainerTextUI'
 
@@ -10,8 +10,8 @@ const BuildWork = () => {
     const boxes = buildWork
     // console.log(boxes.map(box => box.id === id))
     return (
-        <Container >
-            <section className='bg-orange-600 mt-15 w-[1120px] h-[740px]'>
+        <Container className="mt-15">
+            <section className='bg-orange-600  w-[1120px] h-[740px] inter-text'>
                 <div className='ml-7'>
                     {/* 1 */}
                     <SectionHeader title={"Built for the way you work"} className="mt-[30px]" />
@@ -23,7 +23,7 @@ const BuildWork = () => {
                         <div className='w-[360px] bg-blue-400'>
                             <div className='px-4 py-7'>
                                 <ContainerTextUI title={"Brainstorming"} paragraph={"Unleash creative ideas and build on them with the help of sticky notes, images, mind maps, videos, drawing capabilities — the list goes on."} />
-                                <a class="mt-3 text-[#4262FF] inline-flex items-center ">Learn More
+                                <a class=" text-[#4262FF] inline-flex items-center mt-8">Learn More
                                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                                     </svg>

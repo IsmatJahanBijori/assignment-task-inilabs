@@ -4,6 +4,7 @@ import SectionHeader from '../../../components/SectionHeader'
 import FeatureOne from './FeatureOne'
 import FeatureTwo from './FeatureTwo'
 import FeatureThree from './FeatureThree'
+import Button from '../../../components/Button'
 
 const Features = () => {
     return (
@@ -17,6 +18,9 @@ const Features = () => {
                     <FeatureOne />
                     <FeatureTwo />
                     <FeatureThree />
+                </div>
+                <div className='flex mx-auto place-content-center'>
+                    <Button />
                 </div>
             </section>
 

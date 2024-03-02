@@ -4,6 +4,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
 import Container from '../components/Container';
 import { MdKeyboardArrowDown } from "react-icons/md";
+import Button from '../components/Button';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -30,11 +31,7 @@ const Navbar = () => {
                 <NavLink className="mr-7">EN</NavLink>
                 <NavLink className="mr-7 ">Contact Sales</NavLink>
                 <NavLink className="mr-10 ">Login</NavLink>
-                <button className="btn-primary flex place-items-center">Sign up free
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
-                        <path d="M5 12h14M12 5l7 7-7 7"></path>
-                    </svg>
-                </button>
+                <Button />
             </div>
         </>
     )

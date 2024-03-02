@@ -2,7 +2,7 @@ import React from 'react'
 // import { buildWork } from '../utils/BuildWork'
 
 const ContainerBox = ({ boxes }) => {
-    // console.log(boxes.map())
+
     return (
         <div className='flex flex-row my-8'>
             {
