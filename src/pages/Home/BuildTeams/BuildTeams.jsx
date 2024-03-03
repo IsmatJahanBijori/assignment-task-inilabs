@@ -10,7 +10,7 @@ const BuildTeams = () => {
     const lists = listItems
     return (
         <Container className="mt-15" >
-            <section className='bg-green-600 w-[1120px] mx-auto h-[740px] inter-text'>
+            <section className='bg-green-600 mt-[120px] w-[1120px] mx-auto h-[740px] inter-text'>
                 <div className='ml-7'>
                     {/* 1 */}
                     <SectionHeader title={"Built for all kinds of teams"} className="mt-[30px]" />
