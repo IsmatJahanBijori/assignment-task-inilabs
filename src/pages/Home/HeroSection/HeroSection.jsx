@@ -13,7 +13,7 @@ const HeroSection = () => {
                     <HeroLeftLower />
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/yy4GT9q/headerimage-without-text-png.png" className='w-auto md:w-[640px]' alt="" />
+                    <img src="https://i.ibb.co/yy4GT9q/headerimage-without-text-png.png" className='w-auto md:mt-10 md:w-[640px]' alt="" />
                 </div>
             </div>
         </Container>

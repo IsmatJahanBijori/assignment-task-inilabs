@@ -4,7 +4,7 @@ import FeaturesUI from '../../../components/FeaturesUI'
 
 const FeatureTwo = () => {
     return (
-        <div className="feature-two w-[300px] h-[300px] ">
+        <div className="feature-two w-[400px] h-[200px] md:w-[300px] md:h-[300px] overflow-y-hidden">
 
             <FeaturesUI title={"Easy integrations"} paragraph={
                 <>
