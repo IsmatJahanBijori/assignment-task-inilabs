@@ -18,7 +18,8 @@ const BuildWork = () => {
                     {/* 2 */}
                     <ContainerBox boxes={boxes} />
                     {/* 3. */}
-                    <div className='flex flex-col lg:flex-row lg:w-[1060px] h-[500px] ml-14 lg:ml-0'>
+                    {/* ml-14 lg:ml-0 nihcer div er */}
+                    <div className='flex flex-col lg:flex-row lg:w-[1060px] h-[500px] '>
                         {/* 3. left */}
                         <div className='w-[300px] h-[500px] md:w-[360px] md:h-[400px] lg:h-auto '>
                             <div className='md:px-4 md:py-2 md:overflow-y-hidden'>

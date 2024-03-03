@@ -5,8 +5,8 @@ import Card from '../../../components/Card'
 
 const LovedTeams = () => {
     return (
-        <Container className="mt-[120px] bg-[#9195F6] ">
-            <section className='inter-text w-[1120px] h-[628px] mx-auto'>
+        <Container className="mt-[120px]  ">
+            <section className='inter-text w-full h-[1000px] md:w-[1120px] md:h-[1600px] lg:mx-auto overflow-y-hidden'>
                 <SectionHeader title={"Loved by the world's best teams"} className="flex mx-auto place-content-center" />
                 <div className='flex flex-row place-content-center mt-8'>
                     <button className="btn-secondary flex place-items-center">See all customer stories
@@ -16,7 +16,7 @@ const LovedTeams = () => {
                     </button>
                 </div>
 
-                <div className='w-[1140px] bg-[#91eef6] grid grid-cols-1 md:grid-cols-3 gap-5 mt-8'>
+                <div className='lg:w-[1140px] grid grid-cols-1 lg:grid-cols-3 gap-5 mt-8'>
                     <div className="text-[#05003899] bg-[#05003814] rounded-lg">
                         <Card title={"https://i.ibb.co/1J1YMjY/vmware-svg.png"} paragraph={"“When the pandemic hit, those of us who thrive on in-person collaboration were worried that our creativity and productivity would suffer. Miro was the perfect tool to help us with collaboration, whiteboarding, and retrospectives while remote.”"} img={"https://i.ibb.co/RPHgjD5/Mask-group-1-png.png"} name={"Roxanne Mustafa"} position={"Design Team Lead at VMware"} />
                     </div>

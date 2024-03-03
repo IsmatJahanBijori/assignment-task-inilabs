@@ -3,7 +3,7 @@ import React from 'react'
 
 const Card = ({ title, paragraph, img, name, position }) => {
     return (
-        <>
+        <div className='p-3'>
             <img src={title} alt="" className='mt-7' />
             <p className='mt-16'>{paragraph}</p>
             <div className='flex flex-row gap-4 mt-4'>
@@ -13,7 +13,7 @@ const Card = ({ title, paragraph, img, name, position }) => {
                     <p>{position}</p>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

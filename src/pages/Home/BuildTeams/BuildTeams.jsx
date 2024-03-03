@@ -17,7 +17,8 @@ const BuildTeams = () => {
                     {/* 2 */}
                     <ContainerBox boxes={boxes} />
                     {/*  */}
-                    <div className='flex flex-col lg:flex-row w-[1060px] h-auto lg:h-[500px] ml-14 lg:ml-0'>
+                    {/* ml-14 lg:ml-0 */}
+                    <div className='flex flex-col lg:flex-row w-[1060px] h-auto lg:h-[500px] '>
                         {/* 3. left */}
                         <div className='w-[360px]'>
                             <div className='px-4 py-7'>
