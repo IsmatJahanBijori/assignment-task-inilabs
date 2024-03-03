@@ -1,6 +1,7 @@
 .banner-input {
     padding: 10px 190px 10px 25px;
     border: 1px solid #9B99AF;
-    width: 440px;
+    /* width: 440px; */
     margin-top: 32px;
+    font-size: 15px;
 }

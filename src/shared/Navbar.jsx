@@ -18,7 +18,7 @@ const Navbar = () => {
     const navLists = (
         <>
 
-            <nav className="lg:mr-auto lg:ml-4 lg:py-1 lg:pl-4 flex flex-col lg:flex-row  items-center text-base justify-start lg:justify-center">
+            <nav className="lg:mr-auto lg:ml-4 lg:py-1 lg:pl-4 flex flex-col lg:flex-row  items-center text-base justify-start">
                 <div className='flex lg:flex-row mb-2 lg:mb-0'>
                     <li><NavLink className="lg:mr-2 ">Product</NavLink></li>
                     <MdKeyboardArrowDown className='lg:mr-7 size-5' />
