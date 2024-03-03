@@ -66,8 +66,8 @@ The footer appears at the bottom of the webpage and typically contains contact i
 
 ### How To
 <hr/>
-1. Locally Run: npm run dev
-2. Deploy To Firebase: npm run build, firebase deploy
+<li>1. Locally Run: npm run dev</li>
+<li>2. Deploy To Firebase: npm run build, firebase deploy</li>
 
 ### Github Link : 
 <li>https://github.com/IsmatJahanBijori/assignment-task-inilabs</li>

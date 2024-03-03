@@ -11,7 +11,7 @@ const BuildWork = () => {
     // console.log(boxes.map(box => box.id === id))
     return (
         <Container className="mt-15">
-            <section className='bg-orange-600  w-[1120px] mx-auto h-[740px] inter-text'>
+            <section className=' w-[1120px] mx-auto h-[740px] inter-text'>
                 <div className='ml-7'>
                     {/* 1 */}
                     <SectionHeader title={"Built for the way you work"} className="mt-[30px]" />
@@ -20,7 +20,7 @@ const BuildWork = () => {
                     {/* 3. */}
                     <div className='flex flex-col lg:flex-row lg:w-[1060px] h-[500px] ml-14 lg:ml-0'>
                         {/* 3. left */}
-                        <div className='w-[300px] h-[500px] md:w-[360px] md:h-[400px] lg:h-auto bg-blue-400'>
+                        <div className='w-[300px] h-[500px] md:w-[360px] md:h-[400px] lg:h-auto '>
                             <div className='md:px-4 md:py-2 md:overflow-y-hidden'>
                                 <ContainerTextUI title={"Brainstorming"} paragraph={"Unleash creative ideas and build on them with the help of sticky notes, images, mind maps, videos, drawing capabilities — the list goes on."} />
                                 <a class=" text-[#4262FF] inline-flex items-center mt-8">Learn More
@@ -31,7 +31,7 @@ const BuildWork = () => {
                             </div>
                         </div>
                         {/* 3. right */}
-                        <div className='flex lg:mx-auto'>
+                        <div className='flex lg:mx-auto overflow-y-hidden'>
                             <img src="https://i.ibb.co/gVTdn2p/Brainstormwithoutshadow-jpg.png" alt="Brainstormwithoutshadow-jpg" className=' place-content-center' />
                         </div>
                     </div>

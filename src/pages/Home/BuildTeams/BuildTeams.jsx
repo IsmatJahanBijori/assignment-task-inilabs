@@ -9,17 +9,17 @@ const BuildTeams = () => {
     const boxes = buildTeams;
     const lists = listItems
     return (
-        <Container className="mt-15" >
-            <section className='bg-green-600 mt-[120px] w-[1120px] mx-auto h-[740px] inter-text'>
+        <Container className="mt-15 " >
+            <section className=' mt-[120px] w-[1120px] mx-auto h-auto lg:h-[740px] inter-text overflow-y-hidden'>
                 <div className='ml-7'>
                     {/* 1 */}
                     <SectionHeader title={"Built for all kinds of teams"} className="mt-[30px]" />
                     {/* 2 */}
                     <ContainerBox boxes={boxes} />
                     {/*  */}
-                    <div className='flex flex-col md:flex-row w-[1060px] h-[500px]'>
+                    <div className='flex flex-col lg:flex-row w-[1060px] h-auto lg:h-[500px] ml-14 lg:ml-0'>
                         {/* 3. left */}
-                        <div className='w-[360px] bg-blue-400'>
+                        <div className='w-[360px]'>
                             <div className='px-4 py-7'>
                                 {/* upper */}
                                 <ContainerListUI lists={lists} />
@@ -30,7 +30,7 @@ const BuildTeams = () => {
                                 </a>
 
                                 {/* lower */}
-                                <div className='mt-[70px] w-[300px] bg-yellow-400'>
+                                <div className='mt-[70px] w-[300px] '>
                                     <p className='box text-[#05003899]'>Integrate your favorite tools</p>
                                     <div className=' flex flex-row gap-5 mt-5'>
 
@@ -54,7 +54,7 @@ const BuildTeams = () => {
                             </div>
                         </div>
                         {/* 3. right */}
-                        <div className='flex mx-auto'>
+                        <div className='flex w-1/3 lg:w-auto lg:mx-auto overflow-y-hidden'>
                             <img src="https://i.ibb.co/c6hzPSP/uxdesignwithoutshadow-jpg.png" alt="uxdesignwithoutshadow-jpg" className=' place-content-center' />
                         </div>
                     </div>
