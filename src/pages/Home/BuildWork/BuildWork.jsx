@@ -17,11 +17,11 @@ const BuildWork = () => {
                     <SectionHeader title={"Built for the way you work"} className="mt-[30px]" />
                     {/* 2 */}
                     <ContainerBox boxes={boxes} />
-                    {/*  */}
-                    <div className='flex flex-col md:flex-row w-[1060px] h-[500px]'>
+                    {/* 3. */}
+                    <div className='flex flex-col lg:flex-row lg:w-[1060px] h-[500px] ml-14 lg:ml-0'>
                         {/* 3. left */}
-                        <div className='w-[360px] bg-blue-400'>
-                            <div className='px-4 py-7'>
+                        <div className='w-[300px] h-[500px] md:w-[360px] md:h-[400px] lg:h-auto bg-blue-400'>
+                            <div className='md:px-4 md:py-2 md:overflow-y-hidden'>
                                 <ContainerTextUI title={"Brainstorming"} paragraph={"Unleash creative ideas and build on them with the help of sticky notes, images, mind maps, videos, drawing capabilities — the list goes on."} />
                                 <a class=" text-[#4262FF] inline-flex items-center mt-8">Learn More
                                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
@@ -31,7 +31,7 @@ const BuildWork = () => {
                             </div>
                         </div>
                         {/* 3. right */}
-                        <div className='flex mx-auto'>
+                        <div className='flex lg:mx-auto'>
                             <img src="https://i.ibb.co/gVTdn2p/Brainstormwithoutshadow-jpg.png" alt="Brainstormwithoutshadow-jpg" className=' place-content-center' />
                         </div>
                     </div>

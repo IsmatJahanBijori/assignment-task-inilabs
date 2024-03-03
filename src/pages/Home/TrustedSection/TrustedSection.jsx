@@ -4,8 +4,9 @@ import Container from '../../../components/Container'
 
 const TrustedSection = () => {
     return (
-        <section className='section '>
-            <Container className=" w-[1140px]">
+
+        <Container className=" w-[1140px]">
+            <section className='md:section my-14 md:mt-15'>
                 <div className='flex '>
                     <p className='mx-auto text-[#05003899] inter-text'>Trusted by 45M+ users</p>
                 </div>
@@ -16,8 +17,9 @@ const TrustedSection = () => {
                     <img src="https://i.ibb.co/VQxKy99/deloitte-svg.png" alt="deloitte-svg" />
                     <img src="https://i.ibb.co/C1DCK9D/okta-svg.png" alt="okta-svg" />
                 </div>
-            </Container>
-        </section>
+            </section>
+        </Container>
+
     )
 }
 
