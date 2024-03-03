@@ -6,7 +6,7 @@ import Card from '../../../components/Card'
 const LovedTeams = () => {
     return (
         <Container className="mt-[120px]  ">
-            <section className='inter-text w-full h-[1000px] md:w-[1120px] md:h-[1600px] lg:mx-auto overflow-y-hidden'>
+            <section className='inter-text w-full h-[1000px] md:w-[1120px] md:h-[650px] lg:mx-auto overflow-y-hidden'>
                 <SectionHeader title={"Loved by the world's best teams"} className="flex mx-auto place-content-center" />
                 <div className='flex flex-row place-content-center mt-8'>
                     <button className="btn-secondary flex place-items-center">See all customer stories

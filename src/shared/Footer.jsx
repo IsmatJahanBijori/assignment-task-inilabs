@@ -4,12 +4,12 @@ import Container from '../components/Container'
 const Footer = () => {
     return (
         <div className='w-full bg-[#02033B] mt-24'>
-            <Container className=" w-[1056px] bg-gray-400">
+            <Container className=" w-[1056px] ">
                 <div className='flex flex-col md:flex-row px-20 py-12 justify-between '>
                     {/* 1 */}
                     <div className='flex flex-col w-[312px]'>
                         {/* left */}
-                        <div className='bg-red-300'>
+                        <div className=''>
                             <p className='footer-typo'>Scan. Detect. Remove.</p>
                             <div className='grid grid-cols-3 gap-10 mt-[78px]'>
                                 <img src="https://i.ibb.co/gZdwc7n/svg.png" alt="" />
@@ -21,14 +21,14 @@ const Footer = () => {
                                 <li><a href="">Terms of Service</a></li>
                             </div>
                         </div>
-                        <div className='bg-green-400 mt-12 link-p'>
+                        <div className=' mt-12 link-p'>
                             <p>Copyright © 2022 Certo Software Limited | Registered in England & Wales No. 10072356</p>
                             <p className='mt-3'>Designed & developed by Bigger Picture</p>
 
                         </div>
                     </div>
                     {/* middle */}
-                    <div className='bg-purple-400 w-[188px] gap-15'>
+                    <div className=' w-[188px] gap-15'>
                         <p className='miro'>Miro.</p>
                         <div className='miro-p'>
                             <p className='flex place-items-center mt-5'><span><hr className='text-[#FFC247] mr-2 border w-3.5' /></span> iPhone</p>
@@ -39,7 +39,7 @@ const Footer = () => {
                         </div>
                     </div>
                     {/* right */}
-                    <div className='bg-[#FFC247] w-[436px] h-[270px] signup'>
+                    <div className='bg-[#FFC247]  mt-5 md:mt-0 md:w-[436px] md:h-[270px] signup'>
                         <p className="signup-p">Sign up to our newsletter</p>
                         <p className='form-p'>Receive the latest mobile security news, exclusive discounts & offers straight to your inbox!</p>
 
@@ -51,7 +51,7 @@ const Footer = () => {
 
                     </div>
                 </div>
-                <div className='w-[550px] flex flex-col md:flex-row  px-28 py-14'>
+                <div className='md:w-[550px] flex flex-col md:flex-row px-20 py-14'>
                     <p className='link-p'>Apple, the Apple logo, and iPhone are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android, Google Play and the Google Play logo are trademarks of Google LLC.</p>
                 </div>
             </Container>
