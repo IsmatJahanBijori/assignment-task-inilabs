@@ -8,7 +8,7 @@ import Button from '../../../components/Button'
 
 const Features = () => {
     return (
-        <Container className="w-[1140px] bg-red-500  inter-text">
+        <Container className="w-[1140px] bg-red-500 inter-text">
             <section className='section mt-[28px]'>
                 <div className='bg-[#FFD02F] w-[100px] h-[23px] top-[-5px] left-[550px] rotate-[10deg] overflow-y-hidden rounded-full flex place-items-center font-bold relative'>
                     <p className='text-[#090909] text-[7px] absolute px-2'>YOUR IDEA START HERE</p>

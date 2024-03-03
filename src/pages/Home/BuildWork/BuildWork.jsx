@@ -11,7 +11,7 @@ const BuildWork = () => {
     // console.log(boxes.map(box => box.id === id))
     return (
         <Container className="mt-15">
-            <section className='bg-orange-600  w-[1120px] h-[740px] inter-text'>
+            <section className='bg-orange-600  w-[1120px] mx-auto h-[740px] inter-text'>
                 <div className='ml-7'>
                     {/* 1 */}
                     <SectionHeader title={"Built for the way you work"} className="mt-[30px]" />
