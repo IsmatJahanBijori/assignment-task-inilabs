@@ -7,7 +7,7 @@ import HeroLeftLower from './HeroLeftLower'
 const HeroSection = () => {
     return (
         <Container className="mt-14 ">
-            <div className='grid grid-cols-1 lg:grid-cols-2 ml-[80px] gap-14 inter-text '>
+            <div className='grid grid-cols-1 lg:grid-cols-2 ml-[40px] md:ml-[80px] gap-14 md:gap-0 inter-text '>
                 <div className='w-full md:w-[440px]'>
                     <HeroLeftUpper />
                     <HeroLeftLower />
